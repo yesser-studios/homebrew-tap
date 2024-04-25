@@ -16,7 +16,7 @@ class RustTodo < Formula
     assert_predicate bin/"todo", :exist?
     assert_predicate bin/"todo", :executable?
 
-    output = shell_output("todo -V")
+    output = shell_output("#{bin}/todo -V")
     assert_match "todo 1.0.0", output
   end
 end
