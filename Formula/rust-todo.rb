@@ -8,8 +8,7 @@ class RustTodo < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--release"
-    bin.install "target/release/todo"
+    system "cargo", "install", *std_cargo_args
   end
 
   test do
