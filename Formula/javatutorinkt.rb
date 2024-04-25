@@ -1,5 +1,5 @@
 class Javatutorinkt < Formula
-  desc "A Java Tutorial but in Kotlin (at least partially). Prints \"Hello World.\""
+  desc "Hello world program written in Kotlin"
   homepage "https://github.com/yesseruser/JavaTutorialButInKotlin"
   url "https://github.com/yesseruser/JavaTutorialButInKotlin/releases/download/1.1/JavaTutorialButInKotlin-1.1-homebrew.tar.gz"
   sha256 "34de5d9790376da923a595fa3c9dead7fc8683ecb383f2b6c70392aa1f29d868"
