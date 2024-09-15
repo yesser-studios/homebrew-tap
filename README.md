@@ -1,10 +1,12 @@
-# Yesseruser JavaTutorialButInKotlin
+# Yesser Studios Homebrew tap
 
 ## How do I install these formulae?
 
-`brew install yesseruser/javatutorialbutinkotlin/<formula>`
+First, add this tap:
+```brew tap yesseruser/javatutorialbutinkotlin```
 
-Or `brew tap yesseruser/javatutorialbutinkotlin` and then `brew install <formula>`.
+Then, install formulae as you normally would:
+```brew install <formula>```.
 
 ## Documentation
 
