@@ -5,6 +5,12 @@ class YesserTodoCli < Formula
   sha256 "6f49f2bf14d2ccabb46a9d59c584089800d2c71e441904b6487c3fb5bdfb6170"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/yesser-studios/yesser-todo-cli/releases/download/1.0.2"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "a10e64912ab0ebada1120778237ad573dbec96827debb44b5af728b42e89886c"
+  end
+
   depends_on "rust" => :build
 
   def install
