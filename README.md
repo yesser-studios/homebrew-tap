@@ -3,7 +3,7 @@
 ## How do I install these formulae?
 
 First, add this tap:
-```brew tap yesseruser/javatutorialbutinkotlin```
+```brew tap yesser-studios/tap```
 
 Then, install formulae as you normally would:
 ```brew install <formula>```.
