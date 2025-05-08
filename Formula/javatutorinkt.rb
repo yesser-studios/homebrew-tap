@@ -13,7 +13,7 @@ class Javatutorinkt < Formula
   end
 
   test do
-    assert_predicate bin/"javatutorinkt", :exist?
+    assert_path_exists bin/javatutorinkt
     assert_predicate bin/"javatutorinkt", :executable?
     output = shell_output("#{bin}/javatutorinkt")
     assert_match "Hello World!", output
