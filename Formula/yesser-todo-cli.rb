@@ -19,7 +19,7 @@ class YesserTodoCli < Formula
   end
 
   test do
-    assert_predicate bin/"todo", :exist?
+    assert_path_exists bin/todo
     assert_predicate bin/"todo", :executable?
 
     output = shell_output("#{bin}/todo -V")
