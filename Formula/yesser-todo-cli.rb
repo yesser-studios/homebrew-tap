@@ -2,7 +2,7 @@ class YesserTodoCli < Formula
   desc "Todo CLI written in rust"
   homepage "https://github.com/Yesser-Studios/yesser-todo-cli"
   url "https://github.com/Yesser-Studios/yesser-todo-cli/archive/refs/tags/1.2.0.tar.gz"
-  sha256 "812f4aec5d6d133ed18a31e03d56c567930c10540ecf9481cd032b04f4667a35"
+  sha256 "308396c5d31907131c985c944ba67fa8e9b96b986a450e009c990a4d98749703"
   license "MIT"
 
   bottle do
