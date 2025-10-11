@@ -7,9 +7,9 @@ class YesserTodoCli < Formula
 
   bottle do
     root_url "https://github.com/yesser-studios/yesser-todo-cli/releases/download/1.2.0"
-    rebuild 1
+    rebuild 2
     # sha256 cellar: :any_skip_relocation, arm64_sonoma: "a10e64912ab0ebada1120778237ad573dbec96827debb44b5af728b42e89886c"
-    # sha256 cellar: :any_skip_relocation, x86_64_linux: "eb2a4bd0493b7b613ab3e6e409171265a94d6aed745b56e190ecb70d43c60f96"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "5698f79b914bd115b3a866e5ba3613a3b9b43d21c120e1766e7c26b14f247c23"
   end
 
   depends_on "rust" => :build
