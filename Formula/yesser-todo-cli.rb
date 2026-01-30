@@ -8,7 +8,7 @@ class YesserTodoCli < Formula
   bottle do
     root_url "https://github.com/yesser-studios/yesser-todo-cli/releases/download/1.2.0"
     rebuild 2
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "5e813ff26d115ae4a3b7a503c8059b1108bbdb526ecd09dc4a45630332c6289e"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "5e813ff26d115ae4a3b7a503c8059b1108bbdb526ecd09dc4a45630332c6289e"
     sha256 cellar: :any_skip_relocation, x86_64_linux: "5698f79b914bd115b3a866e5ba3613a3b9b43d21c120e1766e7c26b14f247c23"
   end
 

@@ -7,7 +7,7 @@ cask "pong-by-yesser-studios" do
 
   url "https://github.com/yesser-studios/Pong/releases/download/v#{version}/mac-arm64.app.tar.gz"
   name "pong-by-yesser-studios"
-  desc "A Pong clone made in C#"
+  desc "Pong clone made in C#"
   homepage "https://github.com/yesser-studios/Pong"
 
   app "Pong.app"
